@@ -2,10 +2,10 @@
 main:
   - title: 'About'
     url: /
-  - title: 'Projects'
-    url: /projects/
+  #- title: 'Projects'
+  #  url: /projects/
   # - title: 'GitHub'
-  #  url: https://github.com/one-zeze
+  #  url: https://github.com/offwork-wz
   # - title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"

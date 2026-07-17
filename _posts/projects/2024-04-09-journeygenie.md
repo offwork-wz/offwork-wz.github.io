@@ -16,7 +16,7 @@ last_modified_at: 2024-05-27
 팀 프로젝트  
 Team - 프론트 3, 백엔드 3  
 Position - 팀 리더, 백엔드 개발  
-**[GitHub - JourneyGenie](https://github.com/one-zeze/JourneyGenie)**  
+**[GitHub - JourneyGenie](https://github.com/offwork-wz/JourneyGenie)**  
 <br>
 국비교육 과정 프로젝트로, 약 한 달간 간단한 프로토타입 수준의 애플리케이션 개발  
 문서(개발 일정표, 프로젝트 제안서, 설계 명세서, Diagram 등) 작성, DB 설계, Open API 연동, 전반적인 백엔드 개발 수행함.

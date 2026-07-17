@@ -22,9 +22,9 @@ title_separator: "-"
 subtitle: # 'Developer'
 name: "Wonzae Lee"
 description: "An amazing website."
-url: "https://one-zeze.github.io"
+url: "https://github.com/offwork-wz"
 baseurl: # '/'
-repository: "one-zeze/one-zeze.github.io.git"
+repository: "offwork-wz/offwork-wz.github.io"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # '/assets/img/img1.jpg'
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
@@ -109,26 +109,26 @@ analytics:
 author:
   name: "Wonzae Lee"
   avatar: "/assets/img/img1.jpg"
-  bio: "Backend Developer"
+  bio: "Developer"
   location: "South Korea"
-  email: "tales0708@gmail.com"
+  #email: "tales0708@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+    #- label: "Email"
+    #  icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
 
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/one-zeze"
+      url: "https://github.com/offwork-wz"
 
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    #- label: "Twitter"
+      #icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+    #- label: "Facebook"
+      #icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
 
     - label: "Instagram"
