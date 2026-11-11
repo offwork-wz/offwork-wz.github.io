@@ -46,6 +46,10 @@ search: false
     border-color: currentColor;
   }
 
+  &:focus:not(:focus-visible) {
+    outline: none;
+  }
+
   &:focus-visible {
     outline: 3px solid $text-color;
     outline-offset: 3px;
