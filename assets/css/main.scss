@@ -7,3 +7,83 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.page__print {
+  position: fixed;
+  right: 20px;
+  bottom: 24px;
+  z-index: 100;
+}
+
+.page__print-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 1px solid $border-color;
+  border-radius: 12px;
+  background: $background-color;
+  color: #f07878;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+  font-family: inherit;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  cursor: pointer;
+  transition: border-color 0.15s ease;
+
+  svg {
+    display: block;
+    flex: none;
+    width: 26px;
+    height: 30px;
+  }
+
+  &:hover {
+    border-color: currentColor;
+  }
+
+  &:focus-visible {
+    outline: 3px solid $text-color;
+    outline-offset: 3px;
+  }
+
+  &:hover .page__print-tooltip,
+  &:focus-visible .page__print-tooltip {
+    opacity: 1;
+  }
+}
+
+.page__print-tooltip {
+  position: absolute;
+  right: calc(100% + 10px);
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 8px 10px;
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  background: $background-color;
+  color: $text-color;
+  font-size: 12px;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+@media print {
+  .page__print {
+    display: none !important;
+  }
+
+  // Allow long portfolio lists to flow across pages without large blank areas.
+  .page__content ul,
+  .page__content ol,
+  .page__content li {
+    page-break-inside: auto;
+    break-inside: auto;
+  }
+}
